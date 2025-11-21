@@ -1,0 +1,66 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored if you use package restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Dotnet tools
+.dotnet-tools/
+
+# Backup & reports
+*.bak
+*.backup
+*.swp
+*.tmp
+*.temp
+*.dbmdl
+
+# Publish outputs
+publish/
+wwwroot/
+
+# Generated files
+Generated_Code/
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.testsettings
+*.trx
+
+# Entity Framework migrations snapshot
+Migrations/
+
+# Rider
+.idea/
+
+# Mac/Linux system files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
