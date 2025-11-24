@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Controllers
 builder.Services.AddControllers();
 
-// CORS for Angular dev
+// CORS for Angular 
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AngularClient", policy =>
@@ -28,9 +28,9 @@ builder.Services.AddSignalR();
 
 var app = builder.Build();
 
-// Order matters
+
 app.UseRouting();
-app.UseCors("AngularClient");   // must be before MapControllers/MapHub
+app.UseCors("AngularClient");  
 app.UseAuthentication();
 app.UseAuthentication();
 app.MapControllers();

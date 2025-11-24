@@ -13,7 +13,7 @@ namespace ChatApp.Controllers
         private readonly ChatDbContext _db;
         public ChatRoomsController(ChatDbContext db) { _db = db; }
 
-        // Deterministic room key for two users: "minId:maxId"
+       
         private static string MakeRoomKey(int a, int b)
         {
             var min = Math.Min(a, b);
